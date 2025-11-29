@@ -165,11 +165,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 This project is available for educational and research purposes.
 
-## 👤 Author
-
-**Puneeth Ail**
-- GitHub: [@puneethail](https://github.com/puneethail)
-- Repository: [heart_help_rag_bot](https://github.com/puneethail/heart_help_rag_bot)
 
 ## ⚠️ Disclaimer
 
