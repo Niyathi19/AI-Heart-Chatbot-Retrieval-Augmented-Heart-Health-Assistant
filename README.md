@@ -1,39 +1,54 @@
 AI Medical Heart Chatbot
 
-An AI-powered healthcare chatbot designed to provide preliminary cardiovascular guidance, predict heart disease risk, and assist users with real-time medical insights using RAG (Retrieval-Augmented Generation).
+🔹 Project Overview
+AI-powered healthcare chatbot
+Provides preliminary cardiovascular guidance
+Predicts heart disease risk
+Uses RAG (Retrieval-Augmented Generation) for accurate responses
+Delivers real-time medical insights
 
 🚀 Features
-🤖 AI Chatbot for heart health queries
-❤️ Heart Risk Prediction (based on user parameters)
-📊 BMI Calculator
-🧠 Medical Report Analysis (PDF/Text)
-🫀 ECG Image Analysis
-🚨 Emergency Symptom Detection
-📍 Hospital Finder (Geolocation-based)
-🌐 Multilingual Support
-🎤 Voice Input Support
+🤖 AI chatbot for heart health queries
+❤️ Heart risk prediction (based on user input)
+📊 BMI calculator
+🧠 Medical report analysis (PDF/Text)
+🫀 ECG image analysis
+🚨 Emergency symptom detection
+📍 Hospital finder (geolocation-based)
+🌐 Multilingual support
+🎤 Voice input support
+
+
 🛠️ Technologies Used
 🔹 Core Technologies
-Python – Backend development
-Gradio – User interface
+Python → Backend development
+Gradio → User interface
+
 🔹 AI / GenAI
-NLP (Natural Language Processing)
-LLM (Google Gemini)
-RAG (Retrieval-Augmented Generation)
+NLP → Understand user queries
+LLM (Google Gemini) → Generate responses
+RAG → Improve accuracy
+
 🔹 Frameworks & Tools
-LangChain – LLM workflow orchestration
-ChromaDB – Vector database for embeddings
+LangChain → Manage LLM workflow
+ChromaDB → Vector database (embeddings)
+
 🔹 Libraries
-Pandas – Data processing
-SpeechRecognition – Voice input
-Geopy – Location detection
-Folium – Map visualization
+Pandas → Data processing
+SpeechRecognition → Voice input
+Geopy → Location detection
+Folium → Map visualization
+
+
 🧩 How It Works
-User inputs query (text/voice)
+User enters query (text or voice)
 NLP processes the input
-RAG retrieves relevant medical data from ChromaDB
-Google Gemini (LLM) generates response
-System performs analysis (risk, BMI, ECG, etc.)
+RAG retrieves relevant data from ChromaDB
+Google Gemini generates response
+System performs analysis:
+Heart risk prediction
+BMI calculation
+ECG analysis
 Output is displayed via Gradio interface
 
 
